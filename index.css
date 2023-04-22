@@ -1,0 +1,169 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: black;
+}
+.intro-section,
+.contact-us,
+.table-section {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.sticky-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fcaf02;
+}
+.logo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  background-color: #fcaf02;
+  padding-left: 30px;
+}
+.links {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  background-color: #fcaf02;
+  padding-right: 30px;
+}
+.links > a {
+  color: black;
+  text-decoration: none;
+  background-color: #fcaf02;
+}
+
+.intro-section h1,
+p {
+  color: white;
+}
+.intro-section {
+  display: flex;
+}
+.intro-section h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 78px;
+  margin-bottom: 25px;
+}
+.intro-section p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  margin-bottom: 25px;
+}
+.intro-section button {
+  background-color: #fcaf02;
+  padding: 8px 70px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 30px;
+  text-decoration: none;
+  border: none;
+}
+
+/* .contact-us {
+  border: 2px solid red;
+  height: 300px;
+} */
+.contact-us h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 78px;
+  color: #fcaf02;
+  margin-bottom: 40px;
+}
+.input {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  /* padding-right: 100px; */
+  /* border: 2px solid red; */
+  margin-bottom: 50px;
+}
+::placeholder {
+  color: #fcaf02;
+}
+input:focus {
+  border: 2px solid #fcaf02;
+  outline: none;
+}
+.input-1 {
+  padding: 20px;
+  border-radius: 30px;
+  border: 2px solid #fcaf02;
+  width: 1440px;
+  color: white;
+}
+.input-2 {
+  padding: 20px;
+  border-radius: 30px;
+  border: 2px solid #fcaf02;
+  width: 1500px;
+  color: white;
+}
+.submit {
+  background-color: #fcaf02;
+  padding: 10px 30px;
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 30px;
+  text-decoration: none;
+}
+.submit {
+  margin-left: 620px;
+  /* margin-right: auto;*/
+}
+button {
+  text-decoration: none;
+  border: none;
+}
+
+/* .table-section {
+  border: 2px solid red;
+  height: 300px;
+} */
+table {
+  color: #fcaf02;
+  font-size: 24px;
+}
+table,
+thead,
+tbody,
+th {
+  border: 1px solid #fcaf02;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 20px;
+  border-right: #fcaf02;
+}
+td {
+  /* background-color: blue; */
+  border-right: 1px solid #fcaf02;
+}
+.last {
+  background-color: #fcaf02;
+  border-right: 1px solid black;
+  color: black;
+}
+th {
+  text-align: left;
+}
